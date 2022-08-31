@@ -1,0 +1,44 @@
+.pole{
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    border-radius: 3px solid black;
+}
+.player{
+    background-color: white;
+    position: absolute;
+    width: 1%;
+    height: 20%;
+    border-radius: 3px solid black;
+    right: 98%;
+    top: 50px;
+}
+.computer{
+    background-color: white;
+    width: 1%;
+    position: absolute;
+    height:20%;
+    border-radius: 3px solid black;
+    left: 98%;
+    top: 50px;
+}
+.ball{
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border-radius: 50%;
+    width: 5vw;
+    border-radius: 3px solid black;
+    height: 5vw;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+img{
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;}
