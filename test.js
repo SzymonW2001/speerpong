@@ -42,7 +42,7 @@ function update(time){
     if(computerPoints==10 | yourPoints==10){
         ball.style.left=50+"%"
         ball.style.top=50+"%"
-        window.location.reload(true)
+        location.href = location.href;
     }
 
 
